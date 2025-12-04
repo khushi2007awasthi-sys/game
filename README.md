@@ -1,4 +1,4 @@
-  OBSTACLE GAME-
+  OBSTACLE GAME-(objective 1)
 
 1- game overview
 
@@ -45,6 +45,26 @@ Compile the code with a C compiler (e.g., GCC or MSVC).(i have used embarcadero 
 Run the program in a Windows console.
 
 Add Objective 1 README analysis
+
+ Objective 2 — Modified Game (gamemodify.c)
+
+ 1-new features-
+ Score system: Player earns points for avoiding obstacles.
+ Player lives: Game continues until all 3 lives are lost.
+ Restart option: After game over, press 'Y' to restart.
+Improved controls: Supports both arrow keys and A/D for movement.
+
+ 2-shifting left right-
+ Fixed arrow key movement using double `getch()`.
+ Improved input handling with `_kbhit()` and `getch()` for smoother gameplay.
+
+3- How to Run
+Compile `gamemodify.c` using Embarcadero Dev-C++ or any C compiler.
+Run in Windows console.
+Use arrow keys or A/D to move left/right.
+Avoid obstacles to increase score.
+Game ends when lives reach zero; press 'Y' to restart.
+
 
 
 
